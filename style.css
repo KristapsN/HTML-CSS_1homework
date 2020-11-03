@@ -7,9 +7,11 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+
 .header{
     background-image: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
     margin-bottom: 50px;
+    width: 100%;
     
 }
 .img__big{
@@ -177,7 +179,11 @@ body{
     .burger.active .burger--line3{
         transform: rotate(-45deg) translate(5px , -5px);
         width: 100%;
-
+    
+    }
+    .btn__halov{
+        padding: 8px 30px;
+       
     }
 
 }
@@ -188,7 +194,8 @@ body{
     line-height: 65px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    margin-bottom: 17px;
+    margin: 0 0 17px 0;
+    padding: 0;
 }
 
 .paragraph{
@@ -198,7 +205,9 @@ body{
     text-align: center;
     letter-spacing: 0.2px;
     color: #E5E5E5;
-    margin-bottom: 61px;
+    margin: 0 0 61px 0;
+    padding: 0;
+    width: 100%;
 }
 .btn--wrapper{
     margin-bottom: 60px;
@@ -260,6 +269,11 @@ body{
     line-height: 33px;
     letter-spacing: 0.1px;
     color: #000000;
+}
+@media only screen and (max-width: 450px) {
+    .heading__third{
+        font-size: 20px;
+    }
 }
 
 .card--paragraph{
@@ -344,11 +358,11 @@ body{
     }
     .btn__blue__mob{
         margin: 22px 0;
-        min-width: 338px;
+        
     }
 
     .btn__green__mob{
-        min-width: 338px;
+       
 
     }
 }
@@ -437,7 +451,7 @@ hr{
     border: 1px solid #D0D0D0;
     border-radius: 6px;
     height: 52px;
-    min-width: 284px;
+   
     margin-right: 10px;
     font-weight: bold;
     font-size: 15px;
@@ -471,12 +485,16 @@ hr{
         margin-top: 15px;
         width: 100%;
         border-radius: 6px;
+        margin-right: 0;
     }
     .subscribe--input::placeholder{
         text-align: center;
     }
     .input__mind{
         margin: 60px 0;
+    }
+    .heading__secondary{
+        font-size: 36px;
     }
 }
 /* Footer */
